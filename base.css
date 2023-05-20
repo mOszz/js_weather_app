@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+i {
+    font-family: 'font-awesome' !important;
+}
+
+* {
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: #404040;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+
+#weather_container {
+  width: 15%;
+  min-width: 200px;
+  height: auto;
+  background-color: #d6d6d6;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+#current_weather_header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#current_weather_header small{
+  position: absolute;
+  right: 0;
+  top: 3;
+  font-weight: bold;
+}
+
+
+#current_weather_logo {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#current_weather_logo img {
+  width: 100%;
+}
+
+#current_weather_infos {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#small_weather_info {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#current_wind img{
+width: 15%;
+}
+
+#current_humidity {
+  text-align: right;
+  padding-top: 15px;
+}
+
+#current_humidity img{
+  width: 12%;
+  }
